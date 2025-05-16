@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showbox</title>
+    <link rel="shortcut icon" size="16x16" href="./assets/images/favicon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <div class="inner">
+        <header id="header">
+            <h1 class="logo">
+                <a href="" class="link">SHOWBOX</a>
+            </h1>
+            <nav class="gnb">
+                <ul class="gnb-list">
+                    <li class="gnb-item">
+                        <a href="" class="text">Home</a>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="" class="text has-sub">Line-up</a>
+                        <ul class="sub-list">
+                            <li class="sub-item">
+                                <a href="" class="text">International</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="" class="text">Domestic</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="" class="text has-sub">About Us</a>
+                        <ul class="sub-list">
+                            <li class="sub-item">
+                                <a href="" class="text">Company</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="" class="text">Business</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="" class="text">Ethical<br>Management</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="" class="text">Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="" class="text">News</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sub-menu">
+                <button class="btn-wrap">
+                    <span class="btn-menu"></span>
+                    <span class="btn-menu"></span>
+                </button>
+                <div class="sm-gnb">
+                    <ul class="gnb-list">
+                        <li class="gnb-item">
+                            <a href="" class="text">Home</a>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="" class="text has-sub">Line-up</a>
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="" class="text">International</a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="" class="text">Domestic</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="" class="text has-sub">About Us</a>
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="" class="text">Company</a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="" class="text">Business</a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="" class="text">Ethical Management</a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="" class="text">Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="" class="text">News</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main id="main">
+        <section class="sc-intro">
+            <div class="bg">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./assets/images/bg.webp" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/bg2.webp" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/bg5.webp" alt>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner">
+                <div class="headline">
+                    <strong class="text"><span class="color">SHOWBOX</span> Leads</strong>
+                    <strong class="text padding">The industry</strong>
+                    <div class="wrap">
+                        <strong class="text">At the center of</strong>
+                        <svg width="59" height="62" viewBox="0 0 59 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M27.6655 0.0258777L23.4358 4.25561L46.8785 27.6983L0.355769 27.6985L0.35577 33.6802L46.883 33.68L23.4358 57.1272L27.6655 61.3569L58.3311 30.6914L27.6655 0.0258777Z" fill="#F6F6F6"></path>
+                        </svg>
+                        <strong class="text color">K-content</strong>
+                        <!-- <p class="text-sm">SHOWBOX CORP., a part of the Orion Group, is a Korean<br>content studio which has been at the forefront of the Korean<br>film industry for over 20 years and is known for its<br>outstanding performance in the local Box Office and its<br>active participation in the international marketplace.</p> -->
+                    </div>
+                </div>
+                <div class="arrow">
+                    <svg viewBox="0 0 66 59" fill="none" xmlns="http://www.w3.org/2000/svg" fade="" fade-trigger="scroll" style="translate: none;rotate: none;scale: none;transform: translate(0px, 0px);opacity: 1;">
+                        <path d="M0 1L56 1L56 57" stroke="#F6F6F6" stroke-width="2"></path>
+                        <path d="M47 48L56 57L65 48" stroke="#F6F6F6" stroke-width="2"></path>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section class="sc-showbox">
+            <h2 class="blind">About</h2>
+            <div class="img">
+                <video src="./assets/images/showbox_logo.mp4" muted autoplay loop playsinline></video>
+            </div>
+            <div class="inner">
+                <h2 class="headline">SHOWBOX<br>CORP.,</h2>
+                <div class="content">
+                    <div class="arrow">
+                        <svg viewBox="0 0 97 110" fill="none" xmlns="http://www.w3.org/2000/svg" fade="" fade-trigger="scroll" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                            <path d="M1 0L1.00001 94L95 94" stroke="#F6F6F6" stroke-width="2"></path>
+                            <path d="M79.8926 109.107L94.9997 94L79.8926 78.8928" stroke="#F6F6F6" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                        <div class="more-text">
+                            <div class="text-top" data-motion="up-stagger">
+                                <p class="text">A part of the Orion Group, is a Korean content studio which has been at the forefront of the Korean film industry for over 20 years and is known for its outstanding performance in the local Box Office and its active participation in the international marketplace.</p>
+                            </div>
+                            <div class="text-bottom" data-motion="up-stagger">
+                                <p class="text">Established in 2002, SHOWBOX has built itself to encompass the entire production, financing, and distribution sectors, providing the filmmakers a solid production ground to create entertaining content for the audience, with 'entertainment' and 'quality' as its foremost principles.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="sc-worklist">
+            <div class="inner">
+                <h2 class="new">Latest work</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <div class="content">
+                            <div class="img" data-motion="up">
+                                <img src="./assets/images/main_poster1.jpg" alt>
+                            </div>
+                            <div class="headline-wrap" data-motion="up-stagger">
+                                <strong class="headline">A KILLER PARADOX</strong>
+                                <span class="desc">Godsent Hero or Unpunished Sinner?</span>
+                            </div>
+                            <div class="group-btn">
+                                <a href="" class="btn" data-motion="up">
+                                    <span class="btn-text">See more</span>
+                                    <div class="icon-wrap">
+                                        <svg class="icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                        </svg>
+                                        <svg class="icon icon-hover" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="content">
+                            <div class="img" data-motion="up">
+                                <img src="./assets/images/main_poster2.jpg" alt>
+                            </div>
+                            <div class="headline-wrap" data-motion="up-stagger">
+                                <strong class="headline">The Witch</strong>
+                                <span class="desc">She is called a ‘witch’<br>If you approach her you die.</span>
+                            </div>
+                            <div class="group-btn">
+                                <a href="" class="btn" data-motion="up">
+                                    <span class="btn-text">See more</span>
+                                    <div class="icon-wrap">
+                                        <svg class="icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                        </svg>
+                                        <svg class="icon icon-hover" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sc-news">
+
+            <div class="inner">
+
+                <div class="img" data-motion="scale">
+                    <img src="./assets/images/bg_gif.gif" alt>
+                </div>
+
+                <div class="content">
+                    <h2 class="headline" data-motion="up">News</h2>
+                    <span class="line">
+                        <span class="blind">line</span>
+                    </span>
+                    <ul class="text-list" data-motion="up-stagger">
+                        <li class="text-item">
+                            <a href="" class="link">
+                                <span class="desc">PR</span>
+                                <p class="text">Exorcism Chronicles: The Beginning,<br>overwhelmingly No. 1 at the weekend box office at the same time!</p>
+                            </a>
+                        </li>
+                        <li class="text-item">
+                            <a href="" class="link">
+                                <span class="desc">IR</span>
+                                <p class="text">Showbox Q3 2024 IR Presentation materials</p>
+                            </a>
+                        </li>
+                        <li class="text-item">
+                            <a href="" class="link">
+                                <span class="desc">Notice</span>
+                                <p class="text">Showbox Official Website Renovation</p>
+                            </a>
+                        </li>
+                        <li class="text-item">
+                            <a href="" class="link">
+                                <span class="desc">IR</span>
+                                <p class="text">2024 KB Korea Conference</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="group-btn">
+                        <a href="" class="btn" data-motion="up">
+                            <span class="btn-text">See more</span>
+                            <div class="icon-wrap">
+                                <svg class="icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                </svg>
+                                <svg class="icon icon-hover" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="sc-service">
+            <div class="inner top">
+                <h2 class="headline">
+                    <span class="headline-sm">What we do</span>
+                    <span class="headline-big">Services</span>
+                </h2>
+                <div class="arrow">
+                    <svg viewBox="0 0 110 97" fill="none" xmlns="http://www.w3.org/2000/svg" fade="" fade-trigger="scroll" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                        <path d="M0 1L94 0.999996L94 95" stroke="#222325" stroke-width="2"></path>
+                        <path d="M109.107 79.8928L94 95L78.8929 79.8928" stroke="#222325" stroke-width="2"></path>
+                      </svg>
+                </div>
+            </div>
+            <div class="inner">
+                <ul class="service-list">
+                    <li class="service-item">
+                        <div class="left-area">
+                            <div class="title-wrap" data-motion="up-stagger">
+                                <h3 class="title green">Investment &<br>Production</h3>
+                            </div>
+                            <div class="bottom-wrap" data-motion="up-stagger">
+                                <p class="desc">We plan film financing and execute production management<br>through strategic alliances with major production studios and specialized investors.</p>
+                            </div>
+                        </div>
+                        <div class="right-area">
+                            <img src="./assets/images/services1.webp" alt>
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div class="left-area">
+                            <div class="title-wrap" data-motion="up-stagger">
+                                <h3 class="title yellow">Korean Market<br> Distribution</h3>
+                            </div>
+                            <div class="bottom-wrap" data-motion="up-stagger">
+                                <p class="desc">
+                                    We distribute films to the nationwide theatrical windows and digital VODs through new media platforms<br>such as IPTV/digital cable channels, and online/mobile OTT services.</p>
+                            </div>
+                        </div>
+                        <div class="right-area">
+                            <img src="./assets/images/services2.webp" alt>
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div class="left-area">
+                            <div class="title-wrap" data-motion="up-stagger">
+                                <h3 class="title red">Contents PR<br>/Marketing</h3>
+                            </div>
+                            <div class="bottom-wrap" data-motion="up-stagger">
+                                <p class="desc">
+                                    We conduct PR and marketing activities to increase the awareness and preferences of films.</p>
+                            </div>
+                        </div>
+                        <div class="right-area">
+                            <img src="./assets/images/services3.webp" alt>
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div class="left-area">
+                            <div class="title-wrap" data-motion="up-stagger">
+                                <h3 class="title blue">International <br>Distribution</h3>
+                            </div>
+                            <div class="bottom-wrap" data-motion="up-stagger">
+                                <p class="desc">
+                                    We distribute global contents to the international market by country,<br>by conducting overseas PR, marketing and sales at various international film festivals and markets.</p>
+                            </div>
+                        </div>
+                        <div class="right-area">
+                            <img src="./assets/images/services4.webp" alt>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sc-lineup">
+            <div class="inner line">
+                <div class="title">
+                    <h2 class="headline">Line-up</h2>
+                    <p class="text">FILM</p>
+                    <div class="group-btn">
+                        <a href="" class="btn" data-motion="up">
+                            <span class="btn-text">See more</span>
+                            <div class="icon-wrap">
+                                <svg class="icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                </svg>
+                                <svg class="icon icon-hover" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="poster">
+                    <ul class="poster-list">
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poser1.webp" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster2.webp" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster3.webp" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster4.webp" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster5.webp" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster6.webp" alt></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sc-lineup">
+            <div class="inner line">
+                <div class="title">
+                    <p class="text">SERIES</p>
+                    <div class="group-btn">
+                        <a href="" class="btn" data-motion="up">
+                            <span class="btn-text">See more</span>
+                            <div class="icon-wrap">
+                                <svg class="icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                </svg>
+                                <svg class="icon icon-hover" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="poster">
+                    <ul class="poster-list">
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster1.jpg" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster7.jpg" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster8.jpg" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/main_poster1.jpg" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster9.jpg" alt></a>
+                        </li>
+                        <li class="poster-item">
+                            <a href="" class="link"><img src="./assets/images/poster10.webp" alt></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sc-start">
+            <div class="inner">
+                <h2 class="headline">
+                    <span class="text" data-motion="up">SHOWBOX has created</span>
+                </h2>
+                <span class="line">
+                    <span class="blind">line</span>
+                </span>
+                <p class="desc" data-motion="up-stagger">
+                    <span class="text">substantial record-breaking hits over the years, such as TAEGUKGI(2004), THE HOST(2005), THE THIEVES(2012), ASSASSINATION(2015), A TAXI DRIVER(2017) and EXHUMA(2024), each crossing 10 million admissions.</span>
+                    <span class="text">Moreover, SHOWBOX boasts a large library of films, with some of its biggest titles being: WELCOME TO DONGMAKGOL(2005), NAMELESS GANGSTER: RULES OF THE TIME(2012), THE FACE READER(2013), A HARD DAY(2014), THE THRONE(2015), THE CLASSIFIED FILE(2015), INSIDE MEN(2015), A VIOLENT PROSECUTOR(2016), TUNNEL(2016), MEMOIR OF A MURDERER(2017), GONJIAM: HAUNTED ASYLUM(2018), THE MAN STANDING NEXT(2020), SINKHOLE(2021) and EMERGENCY DECLARATION(2022).</span>
+                    <span class="text">Based on ample experience in the distribution sector, SHOWBOX has successfully made its mark in both TV-series production, as proved by the global hit ITAEWON CLASS(2020) and A KILLER PARADOX(2024), and international co-production, as demonstrated by the Korea-Thai project THE MEDIUM(2021). SHOWBOX continues to maximize opportunities by establishing strategic partnerships in the web-comics business and securing original IPs in order to develop various formats of creative content targeting global markets.</span>
+                    <span class="text">SHOWBOX leads the industry at the center of K-content, based on its rich experience in creating content with talented professionals and deep insights into the content ecosystem.</span>
+                </p>
+                <div class="group-btn">
+                    <a href="" class="btn" data-motion="up">
+                        <span class="btn-text">See more</span>
+                        <div class="icon-wrap">
+                            <svg class="icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                            </svg>
+                            <svg class="icon icon-hover" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 0H12.069V10.7025L1.44922 0.0828203L0.0837618 1.44828L10.7046 12.069H0V14H14V0Z" fill="#F6F6F6"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="inner">
+            <div class="group-top">
+                <h2 class="headline">Contact us</h2>
+                <nav class="gnb">
+                    <ul class="gnb-list">
+                        <li class="gnb-item">
+                            <a href="" class="text">Home</a>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="" class="text has-sub">Line-up</a>
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="" class="text">International</a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="" class="text">Domestic</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="" class="text has-sub">About Us</a>
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="" class="text">Company</a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="" class="text">Business</a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="" class="text">Ethical Management</a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="" class="text">Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="" class="text">News</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="info">
+                    <h3 class="sub-title">Get in touch</h3>
+                    <div class="info-area">
+                        <a href="" class="sub-text">Tel. No. : 02-3218-5500 </a>
+                        <a href="" class="sub-text">Business Registration No. : 106-81-79629</a>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3 class="sub-title">Come and visit</h3>
+                    <a href="" class="sub-text">
+                        <address class="address">310,<br>Dosan-daero-7~9F,<br>916 Bldg,<br>Gangnam-gu,<br>Seoul 06054,<br>Republic of Korea</address>
+                    </a>
+                </div>
+            </div>
+            <div class="group-bottom">
+                <div class="left">
+                    <a href="" class="text">SHOWBOX CORP.</a>
+                    <a href="" class="text">CEO : Ho-jung Shin</a>
+                </div>
+                <div class="right">
+                    <small class="text">COPYRIGHT ⓒ SHOWBOX ALL RIGHTS RESERVED.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
